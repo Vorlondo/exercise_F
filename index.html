@@ -14,23 +14,23 @@
 			<img src="img/logo.svg" alt="logoАН" class="imglogo">
 				<ul class="help">
 					<li>
-						<a href="#"> КУПИТЬ </a>
+						<a href="#" class="hbuy"> КУПИТЬ </a>
+					</li>
+					<li>	
+						<a href="#" class="rent"> АРЕНДОВАТЬ</a>
 					</li>
 					<li>
-						<a href="#"> АРЕНДОВАТЬ</a>
+						<a href="#" class="sellrent"> ПРОДАТЬ/СДАТЬ </a>
 					</li>
 					<li>
-						<a href="#"> ПРОДАТЬ/СДАТЬ </a>
-					</li>
-					<li>
-						<a href="#"> О НАС </a>
+						<a href="#" class="abus"> О НАС </a>
 					</li>
 				</ul>
 		</nav>
 		<nav class="header__user">
 			<ul class="user">
 				<li>
-					<a href="tel:+380443922222"> 
+					<a href="tel:+380443922222" class="tel"> 
 						+380 (44) 392 22 22 
 					</a>
 				</li>
@@ -38,56 +38,187 @@
 					РУС
 				</li>
 				<li>
-					<a href="#">
-						<img src="/img/star.png" alt="ИЗБРАННОЕ" class="imgheader"> 
+					<a href="#" class="favrt">
+						<img src="img/star.png" alt="ИЗБРАННОЕ" class="imgheader"> 
 				   </a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="/img/login.png" alt="ЛИЧНЫЙ КАБИНЕТ" class="imgheader">
+					<a href="#" class="login">
+						<img src="img/login.png" alt="ЛИЧНЫЙ КАБИНЕТ" class="imgheader">
 					</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<section class="head-section">
-		<div class="wantsearch">
-			<p>
+<!-- __________________________________________________ -->
+	<header-section class="header-section">
+		<div class="container">
+			<div class="itemwish">
 				Я ХОЧУ
 				<span>
-					<a href="#">
+					<a href="#" class="sbuy">
 						КУПИТЬ
 					</a>
 				</span>
 				<span>
-					<a href="#">
+					<a href="#" class="apart">
 						КВАРТИРУ
 					</a>
 				</span>
 				В
 				<span>
-					<a href="#">
+					<a href="#" class="city">
 						ГОРОДЕ
 					</a>
+					<a href="#" class="search_btn">
+						<img src="img/search.svg" alt="search_btn" class="imgsearch">
+					</a>
 				</span>
-				<a href="#" class="search_btn">
-					<img src="/img/search.png" alt="search_btn" class="imgsearch">
-				</a>
-			</p>
+			</div>
+			<div class="prgrs">
+				<div class="allobj">
+					<span>
+						over9999
+					</span> 
+						Всего обжект
+				</div>
+				<div class="newweek">
+					<span>
+						 over99
+					</span>
+						Новых за неделю
+				</div>
+				<div class="newmonth">
+					<span>
+						over999
+					</span> 
+						Новых за месяц
+				</div>
+			</div>
+		</div>
+	</header-section>
+	<section class="fullaccomp">
+		<div class="fullaccomp_item">
+			<div class="section-header">
+				ПОЛНОЕ СОПРОВОЖДЕНИЕ
+			</div>
+			<div class="labeloption">
+				<div class="labelstatusthree">
+					<a href="#">
+						покупка/аренды 
+					</a>
+				</div>
+				<div class="labelstatusfour">
+					<a href="#">
+						продажи/сдачи в аренду
+					</a>
+				</div>
+			</div>
+			<div class="fullstatus">
+				<div class="">
+					<a href="#">
+						<img src="img/fullaccomp1" alt="fullaccopm" class="imgfacc">
+					<span>
+						Ваш персональный риэлтор
+					</span>
+					</a>
+				</div>
+				<div class="">
+					<a href="#">
+						<img src="img/fullaccomp2" alt="fullaccopm" class="imgfacc">
+					<span>
+						Видеоролик
+					</span>
+					</a>
+				</div>
+				<div class="">
+					<a href="#">
+						<img src="img/fullaccomp3" alt="fullaccopm" class="imgfacc">
+					<span>
+						Виртуальные туры
+					</span>
+					</a>
+				</div>
+			</div>
+			<!-- <div>
+				<div class="fsstatus2">
+					<img src="img/fullaccomp4" alt="fullaccopm">
+					<span>
+						Экспертная оценка недвижимости специалистами AH Park Lane
+					</span>
+				</div>
+				<div>
+					<img src="img/fullaccomp5" alt="fullaccopm">
+					<span>
+						Сдать в аренду
+					</span>
+				</div>
+				<div>
+					<img src="img/fullaccomp6" alt="fullaccopm">
+					<span>
+						Ваш персональный риэлтор	
+					</span>
+					
+				</div>
+				<div>
+					<img src="img/fullaccomp7" alt="fullaccopm">
+					<span>
+						Продать
+					</span>
+					
+				</div>
+			</div> -->
 		</div>
 	</section>
-	<!-- <iframe
+	<section class="map">
+		<div class="navmap">
+			
+		</div>
+		<iframe
 		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20838.54808440821!2d28.52156835!3d49.24193005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b41900cda83%3A0x6c5a27c876ada7c0!2z0YPQuy4g0JfQsNC80L7RgdGC0Y_QvdGB0LrQsNGPLCAyNSwg0JLQuNC90L3QuNGG0LAsINCS0LjQvdC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDIxMDAw!5e0!3m2!1sru!2sro!4v1602611538418!5m2!1sru!2sro"
-		width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-		tabindex="0"></iframe> -->
-	<section class="map"></section>
-	<article class="article"></article>
-	<section class="news"></section>
-	<section class="info"></section>
+		width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+		tabindex="0"></iframe>
+	</section>
+	<article class="roundabout">
+		<h2 class="round-header">
+			Новые объекты		
+		</h2>
+		<div class="round">
+			
+		</div>
+		<div class="scroll">
+			
+		</div>
+	</article>
+	<section class="news">
+		<div class="">
+			
+		</div>
+		<div class="">
+			
+		</div class="">
+		<div>
+			
+		</div>
+	</section>
+	<section class="info">
+		<h1>
+			
+		</h1>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+	</section>
 	<footer class="footer">
-		<nav>
-
-		</nav>
+		<div class="">
+			
+		</div>
+		<div class="">
+			
+		</div>
 	</footer>
 </body>
 

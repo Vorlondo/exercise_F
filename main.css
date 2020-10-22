@@ -20,8 +20,9 @@ body{
 	background: rgb(151, 0, 78);
 	display: flex;
 	justify-content: space-between;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
 }
 
 .imglogo {
@@ -37,16 +38,34 @@ body{
 	font-size: 16px;
 }
 
+.header__help {
+	margin-left: 350px;
+}
+.header__user {
+	margin-right: 350px;
+}
+
+.help a:hover, .user a:hover {
+	padding: 5vh 0;
+	background: white;
+	color: rgb(151, 0, 78);
+
+}
+
+.header__help, .header__user, .user  {
+	display: flex;
+	align-items: center;
+}
+
 .help {
 	display: flex;
 	justify-content: flex-start;
 }
 .help li {
-	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .user {
-	display: flex;
 	justify-content: flex-end;
 }
 .user li {
@@ -64,45 +83,90 @@ body{
 	height: 30px;
 }
 
-/* header a{
-	color: white;
-	text-decoration: none;
-}
 
-.nav {
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	padding-top: 10px;
-} */
-
-/* .head-section {
-	width: 100%;
+.header-section {
+	background: center/100% no-repeat url("img/header-bg.jpg");
 	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url("img/header-bg.jpg");
-} */
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
 
-/* .menu {
+
+.itemwish {
+	font-size: 28px;
+	background: rgba(0,0,0,0.6);
+	padding: 50px;
+	margin-bottom: 100px;
+	color: white;
+}
+.itemwish a {
+	text-decoration: none;
+	color: white;
+	font-size: 36px;
+}
+
+.itemwish a:hover {
+	padding: 5vh 0;
+	background: white;
+	color: rgb(151, 0, 78);
+}
+.prgrs {
 	display: flex;
-}
-.menu li a {
-	text-transform: uppercase;
-}
-.menu li {
-	margin-right: 40px;
-}
-.help {
-	margin-left:auto;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 22px;
+	padding-top: 100px;
+	
 }
 
-.wantsearch {
-	text-align: center;
-	/* background: rgba(0,0,0,0.6); */
-	/* background: black;
-	opacity: 40%;
+.prgrs span {
+	display: flex;
+	margin-bottom: 15px;
+	justify-content: center;
 	
-	padding: 50px; */
-/* } */ 
+	
+}
+.allobj, .newweek, .newmonth :after {
+	border-right: 5px solid white;
+	margin:0 50px;
+}
+
+.allobj, .newweek{
+	padding-right: 50px;
+}
+.fullaccomp a {
+	text-decoration: none;
+	color: black;
+}
+
+.fullaccomp {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.section-header{
+	font-size: 30px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.labeloption {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: space-evenly;
+	font-size: 22px;
+	border-bottom: 10px solid black;
+}
+.labelstatusthree, .labelstatusfour {
+	margin: 10px 50px;
+
+}
+
