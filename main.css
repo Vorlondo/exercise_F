@@ -45,8 +45,8 @@ body{
 	margin-right: 350px;
 }
 
-.help a:hover, .user a:hover {
-	padding: 5vh 0;
+.help a:hover {
+	padding: 10px 0;
 	background: white;
 	color: rgb(151, 0, 78);
 
@@ -83,6 +83,45 @@ body{
 	height: 30px;
 }
 
+.menu {
+	background: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px 0 ;
+}
+.menu a {
+	text-decoration: none;
+	color: brown;
+	font-size: 14px;
+}
+.menu_leftcontent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 100px;
+	border-right: 1px solid wheat;
+}
+.menu_leftcontent div {
+	display: flex;
+	justify-content: center;
+}
+
+.menu_leftcontent a {
+	padding-left: 50px;
+}
+
+
+.menu_centercontent a {
+	display: block;
+	padding-bottom: 20px;
+}
+
+a div:hover {
+	background: rgba(151, 0, 78, 0.2);
+	font-size: 10px;
+	transition: 2s;
+}
 
 .header-section {
 	background: center/100% no-repeat url("img/header-bg.jpg");
@@ -109,7 +148,7 @@ body{
 }
 
 .itemwish a:hover {
-	padding: 5vh 0;
+	padding: 50px 0;
 	background: white;
 	color: rgb(151, 0, 78);
 }
@@ -132,7 +171,7 @@ body{
 }
 .allobj, .newweek, .newmonth :after {
 	border-right: 5px solid white;
-	margin:0 50px;
+	margin-right: 50px;
 }
 
 .allobj, .newweek{
@@ -163,10 +202,18 @@ body{
 	margin-bottom: 50px;
 	justify-content: space-evenly;
 	font-size: 22px;
-	border-bottom: 10px solid black;
+	border-bottom: 5px solid black;
 }
 .labelstatusthree, .labelstatusfour {
-	margin: 10px 50px;
+	margin: 10px 50px;	
 
 }
 
+.fullstatus {
+	display: flex;
+	justify-content: space-around;
+}
+
+.fullstatus_item {
+	margin: 0 100px;
+}
