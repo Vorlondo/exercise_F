@@ -46,7 +46,7 @@ body, p {
 
 .content__menu {
     background: rgba(212, 208, 208, 0.774);
-    border: 10px solid rgb(0, 255, 255);
+    border: 10px solid  rgba(212, 208, 208, 0.774);
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
