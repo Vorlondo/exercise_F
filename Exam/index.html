@@ -23,57 +23,59 @@
     </header>
     <section class="content">
         <menu class="content__menu">
-            <form action="#" class="form_login">
-                <p>Name</p>
-                <input type="text" name="Name" placeholder="Name" class="input">
-                <p>Password</p>
-                <input type="password" name="Password" placeholder="password" class="input">
-                <p>
-                    <button type="submit" class="form_btn">
-                        Log In
-                    </button>
-                </p>               
+            <form action="#" class="form">
+                <div class="form_login">
+                    <p>Name</p>
+                    <input type="text" name="Name" placeholder="Name" class="input">
+                    <p>Password</p>
+                    <input type="password" name="Password" placeholder="password" class="input">
+                    <p>
+                        <button type="submit" class="form_btn">
+                            Log In
+                        </button>
+                    </p>   
+                </div>           
+                <div class="form_search">
+                    <input type="search" name="search" placeholder="search">
+                    <p>
+                        <button class="search_btn">
+                            search
+                        </button>
+                    </p>
+                </div>  
+                <div class="form_select">
+                    <p>Sort</p> 
+                    <select>
+                        <option selected disabled>select</option>
+                        <option>
+                            ascending
+                        </option>
+                        <option >
+                            descending
+                        </option>
+                    </select>
+                </div>
+                <div class="form_check">
+                    <p>Filter</p>
+                    <input type="checkbox" checked>
+                    <input type="checkbox" checked>
+                    <input type="checkbox" checked>
+                </div>          
+                <div class="form_radio">
+                    <p>Category</p>
+                    <input type="radio" name="radio" checked>
+                    <input type="radio" name="radio">
+                    <input type="radio" name="radio">
+                </div>
+                <div class="Price"> 
+                    <p>Price</p>
+                    <input type="range">
+                </div>
+                <div class="Date">
+                    <p>Date</p> 
+                    <input type="date">
+                </div>
             </form>
-            <form action="#" class="form_search">
-                <input type="search" name="search" placeholder="search">
-                <p>
-                    <button class="search_btn">
-                        search
-                    </button>
-                </p>
-            </form>  
-            <form action="#" class="form_select">
-                <p>Sort</p> 
-                <select>
-                    <option selected disabled>select</option>
-                    <option>
-                        ascending
-                    </option>
-                    <option >
-                        descending
-                    </option>
-                </select>
-            </form>
-            <form action="#" class="form_check">
-                <p>Filter</p>
-                <input type="checkbox" checked>
-                <input type="checkbox" checked>
-                <input type="checkbox" checked>
-            </form>          
-            <form action="#" class="form_radio">
-                <p>Category</p>
-                <input type="radio" name="radio" checked>
-                <input type="radio" name="radio">
-                <input type="radio" name="radio">
-            </form>
-            <div class="Price"> 
-                <p>Price</p>
-                <input type="range">
-            </div>
-            <div class="Date">
-                <p>Date</p> 
-                <input type="date">
-            </div>
         </menu>
         <section class="content_section">
             <div class="content_section__wrap">

@@ -38,10 +38,19 @@ body, p {
     justify-content: space-between;
 }
 
-.form_check, .form_radio {
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.form_check, .form_radio, .form_login {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .content__menu {
